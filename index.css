@@ -1,0 +1,133 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navHeader {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.bookForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 21px;
+  width: 40vw;
+  margin: auto;
+  gap: 0;
+}
+
+#title,
+#author {
+  width: 40vw;
+}
+
+.hidy {
+  display: none;
+}
+
+.add {
+  display: flex;
+  align-self: flex-end;
+  padding: 5px;
+  box-shadow: #1c1c1c 2px 2px;
+}
+
+.delete {
+  padding: 4px 2px;
+  box-shadow: #1c1c1c 3px 3px;
+}
+
+.books {
+  margin: auto;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.newBook:nth-child(even) {
+  background-color: rgb(255, 253, 253);
+}
+
+.newBook:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.awesomeBooks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  border: 2px solid #1c1c1c;
+  margin: 20px auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 10px;
+}
+
+.navUl {
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  cursor: pointer;
+}
+
+.list:nth-child(1) {
+  border-right: 2px solid #111;
+  width: 30px;
+}
+
+.list:nth-child(2) {
+  border-right: 2px solid #111;
+  width: 60px;
+}
+
+.contactDiv {
+  padding: 10vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  border: 2px solid black;
+  position: absolute;
+  width: 95vw;
+  top: 92vh;
+}
+
+.copyright p {
+  margin-left: 10px;
+}
+
+.date-time {
+  display: flex;
+  margin: 20px auto auto auto;
+  justify-content: right;
+}
+
+#dateTime {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+}
