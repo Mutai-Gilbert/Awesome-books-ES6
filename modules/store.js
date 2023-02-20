@@ -1,5 +1,5 @@
 export default class Store {
-  static getBooks() {
+  static getBooks = () => {
     let books;
     if (localStorage.getItem('books') === null) {
       books = [];
@@ -9,13 +9,13 @@ export default class Store {
     return books;
   }
 
-  static addBook(book) {
+  static addBook = (book) => {
     const books = Store.getBooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
 
-  static removeBook(id) {
+  static removeBook = (id) => {
     let books = Store.getBooks();
     id = parseInt(id, 10);
     books = books.filter((book) => book.id !== id);

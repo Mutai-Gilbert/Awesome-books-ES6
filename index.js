@@ -77,7 +77,7 @@ contact.addEventListener('click', () => {
         You can reach out to us!</p>
       <ul>
         <li>Our e-mail: kngotho3@gmail.com</li>
-        <li>Our phone number: +254707738725</li>
+        <li>Our phone number: +254707738745</li>
         <li>Our address: Nairobi, Nairobi, Kenya</li>
       </ul>
     </div>
